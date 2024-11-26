@@ -28,4 +28,8 @@ int main(){
 		}
 		printf("\n");
 		}
+	for (int i = 0; i<3; i++){
+        free(arr[i]);
+	}
+    free(arr);
 }
